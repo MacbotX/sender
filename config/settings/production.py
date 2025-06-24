@@ -112,7 +112,7 @@ EMAIL_HOST = 'mail.privateemail.com'
 EMAIL_HOST_USER = 'support@protalaxiscapital.com'
 EMAIL_HOST_PASSWORD = 'M080341i@'
 EMAIL_PORT = '465'
-EMAIL_USE_TLS = True
+EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
