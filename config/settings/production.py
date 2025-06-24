@@ -108,10 +108,10 @@ ADMIN_URL = "admin/"
 # }
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
-EMAIL_HOST_USER = 'f7f1d4d566645a'
-EMAIL_HOST_PASSWORD = '1917db4a003d90'
-EMAIL_PORT = '2525'
+EMAIL_HOST = 'mail.privatemail.com'
+EMAIL_HOST_USER = 'support@protalaxiscapital.com'
+EMAIL_HOST_PASSWORD = 'M080341i@'
+EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
