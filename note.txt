@@ -1,0 +1,6 @@
+CREATE DATABASE sender_db;
+CREATE USER sender WITH PASSWORD 'secret';
+ALTER ROLE sender SET client_encoding TO 'utf8';
+ALTER ROLE sender SET default_transaction_isolation TO 'read committed';
+ALTER ROLE sender SET timezone TO 'UTC';
+GRANT ALL PRIVILEGES ON DATABASE sender_db TO sender;
