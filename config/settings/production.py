@@ -10,7 +10,7 @@ from .base import env
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = "92FO50B7U6s95FDUAnZV19EvzL9KcNIwWbzgFOlPyl7SRnf4Idkrvdpfj4FB9VB5"
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["www.ziegertpro.com", "ziegertpro.com"]
 
 # DATABASES
 # ------------------------------------------------------------------------------

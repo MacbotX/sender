@@ -4,3 +4,8 @@ ALTER ROLE sender SET client_encoding TO 'utf8';
 ALTER ROLE sender SET default_transaction_isolation TO 'read committed';
 ALTER ROLE sender SET timezone TO 'UTC';
 GRANT ALL PRIVILEGES ON DATABASE sender_db TO sender;
+GRANT ALL ON SCHEMA public TO sender;
+GRANT CREATE ON DATABASE sender_db TO sender;
+ALTER SCHEMA public OWNER TO sender;
+ALTER DATABASE sender_db OWNER TO sender;
+GRANT postgres TO sender;
