@@ -48,25 +48,25 @@ LOCALE_PATHS = [str(BASE_DIR / "locale")]
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    #     'NAME': 'zoomtest',
-    #     'USER': 'zoomtest',
-    #     'PASSWORD': 'M080341i@',
-    #     'HOST': 'localhost',
-    #     'PORT': '',
-    #     'OPTIONS': {
-    #         'options': '-c search_path=public'
-    #     },
-    # },
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': "sender",
-        'USER': "root",
-        'PASSWORD': "secret",
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'sender_db',
+        'USER': 'sender',
+        'PASSWORD': 'M080341i@',
         'HOST': 'localhost',
-        'PORT': 5432,
-    }
+        'PORT': '',
+        'OPTIONS': {
+            'options': '-c search_path=public'
+        },
+    },
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': "sender",
+    #     'USER': "root",
+    #     'PASSWORD': "secret",
+    #     'HOST': 'localhost',
+    #     'PORT': 5432,
+    # }
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
 # https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-DEFAULT_AUTO_FIELD
