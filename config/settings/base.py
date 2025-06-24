@@ -52,7 +52,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'sender_db',
         'USER': 'sender',
-        'PASSWORD': 'M080341i@',
+        'PASSWORD': 'secret',
         'HOST': 'localhost',
         'PORT': '',
         'OPTIONS': {
