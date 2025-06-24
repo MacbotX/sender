@@ -111,9 +111,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'mail.privateemail.com'
 EMAIL_HOST_USER = 'support@protalaxiscapital.com'
 EMAIL_HOST_PASSWORD = 'M080341i@'
-EMAIL_PORT = '587'
+EMAIL_PORT = '465'
 EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+EMAIL_USE_SSL = True
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 # Looking to send emails in production? Check out our Email API/SMTP product!
